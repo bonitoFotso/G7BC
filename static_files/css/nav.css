@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+li, a, button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+
+}
+li, a:enabled{
+    color: blueviolet;
+}
+li, a:active{
+    color: black;
+}
+.nav{
+    position: absolute;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: blueviolet;
+
+}
+
+.nav .logo{
+    font-size: 2em;
+    font-weight: bold;
+
+}
+
+.nav ul{
+    display: flex;
+}
+
+.nav ul li{
+    margin:0 25px ;
+}
+
+.nav ul li.active a{
+    color: brown;
+    font-weight: 600;
+}

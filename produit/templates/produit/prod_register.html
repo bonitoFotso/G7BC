@@ -1,0 +1,8 @@
+<form action="{% url 'produit_register' %}" method="post">
+    {% csrf_token %}
+    <input type="text" name="nom" id="" placeholder="nom">
+    <input type="text" name="detail" id="" placeholder="detail">
+    <input type="submit" value="valider">
+</form>
+<h1>{{s}}</h1>
+<a href=" {% url 'produit' %} ">produit</a>
